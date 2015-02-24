@@ -57,7 +57,7 @@ class Transakcja: public Produkt, public Klient{
 		    cin>>id;
 		    cin>>ilosc;
 		    cin>>status;
-			wyswietl_transakcje (int id_transakcji,int ilosc,int status);
+			wyswietl_transakcje(int id_transakcji,int ilosc,int status);
 		}
 
 		int id_zakupu() {
