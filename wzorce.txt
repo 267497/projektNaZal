@@ -1,6 +1,5 @@
-1. Wzorzec delegation, został użyty podczas, gdy klasa administrator dziedziczy
-z klasy pracownik. Pozwala to na użycie dostępnych już w klasie pracownik
-funkcjonalności oraz dodanie im nadrzędnych.
+1. Wzorzec budowniczy, został on użyty w interfejsie. Pozwala on na oddzielenie
+sposobu tworzenia obiektu (produktu) od jego repezentacji klientowi.
 
 2. Wzorzec iterator, został on użyty w interfejsie. Dzięki temu możliwy jest
 sekwencyjny dostęp do listy wszystkich elementów danej kolekcji w przypadku 
